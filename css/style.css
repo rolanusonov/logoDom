@@ -1,0 +1,730 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#LogoDom {
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+#progect {
+    background: url("../img/image 1.png") no-repeat center/cover;
+    padding: 100px 0 250px 0;
+}
+
+.LogoDom h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+
+.menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.LogoDom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.user {
+
+    width: 46px;
+    height: 46px;
+    color: white;
+    background: #1F1E3D8F;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.btn {
+    width: 214px;
+    height: 46px;
+
+    font-weight: 700;
+    font-size: 18px;
+    background: #1F1E3D8F;
+    color: #FFFFFF;
+}
+
+.progect h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 123px;
+    margin-top: 135px;
+}
+
+.line {
+    width: 118.15px;
+    height: 101.9px;
+    color: #FFD700;
+}
+
+.progect h2 {
+    font-family: 'Montserrat', sans-serif;
+    width: 688px;
+    height: 196px;
+    font-size: 72px;
+    color: white;
+    margin-left: 40px;
+}
+
+.progect h4 {
+    font-family: 'Montserrat', sans-serif;
+    width: 285px;
+    height: 116px;
+    font-size: 24px;
+    color: #FFD700;
+    margin-left: 400px;
+    margin-top: -70px;
+}
+
+#price {
+    background: url("../img/image 2.png");
+    position: absolute;
+    width: 975px;
+    height: 779px;
+    left: 425px;
+    top: 901px;
+}
+
+.priceTitle {
+    margin-left: 500px;
+    width: 453px;
+    height: 158px;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.step {
+    margin-left: 440px;
+    margin-top: -60px;
+    width: 520px;
+    height: 58px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #DDAF2A;
+}
+
+.month h1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 73px;
+    height: 88px;
+    font-size: 72px;
+    text-align: right;
+    margin-left: -300px;
+}
+
+.month h5 {
+    font-family: 'Montserrat', sans-serif;
+    width: 97px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #000000;
+    margin-left: -200px;
+    margin-top: -50px;
+}
+
+.month p {
+    font-family: 'Montserrat', sans-serif;
+    width: 317px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1F1F1F;
+    margin-top: 20px;
+    margin-left: -300px;
+}
+
+.month2 {
+    padding: 30px 0 30px 0;
+}
+
+.month2 h1 {
+    width: 158px;
+    height: 88px;
+    font-size: 72px;
+    line-height: 88px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -300px;
+}
+
+.month2 p {
+    width: 317px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1F1F1F;
+    margin-left: -300px;
+}
+
+.mounth3 h1 {
+    width: 43px;
+    height: 88px;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    margin-left: -300px;
+}
+
+.mounth3 h5 {
+    width: 38px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    margin-left: -240px;
+    margin-top: -50px;
+}
+
+.mounth3 p {
+    width: 317px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1F1F1F;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -300px;
+    margin-top: 20px;
+}
+
+.order {
+    width: 605px;
+    height: 400px;
+    background: #1F1E3D;
+    margin-top: -300px;
+    margin-left: 440px;
+}
+
+.name {
+    width: 36px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #DDAF2A;
+    margin-left: 50px;
+    padding: 50px 0 0 0;
+}
+
+.order input {
+    padding: 10px 0 0 0;
+}
+
+.whatN {
+    background: #1F1E3D;
+    margin-left: 50px;
+}
+
+.nameTitle {
+    width: 76px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #DDAF2A;
+    margin-left: 50px;
+    padding: 50px 0 0 0;
+}
+
+.line3 {
+    width: 355px;
+    height: 1px;
+    border: 1px solid #DDAF2A;
+    margin-left: 40px;
+}
+
+.order p {
+    width: 342px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #DDAF2A;
+    padding: 50px 0 0 0;
+}
+
+.radio {
+    margin-left: 50px;
+}
+
+#we {
+    width: 100%;
+    height: 859px;
+    background: #1F1E3D;
+    margin-top: 850px;
+}
+
+.line4 {
+    width: 8px;
+    height: 78px;
+    color: #DDAF2A;
+}
+
+.we h2 {
+    font-family: 'Montserrat', sans-serif;
+    width: 181px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #DDAF2A;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.we h1 {
+    width: 570px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-left: 400px;
+}
+
+.svj {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.wish h1 {
+    margin-left: 10px;
+    width: 643px;
+    height: 81px;
+
+    font-size: 36px;
+    line-height: 44px;
+    font-family: 'Montserrat', sans-serif;
+    color: #DDAF2A;
+}
+
+.wishes {
+    margin-top: 30px;
+    width: 473px;
+    height: 86px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+.wishes2 {
+    margin-top: 50px;
+    width: 473px;
+    height: 44px;
+    width: 473px;
+    height: 44px;
+    color: white;
+}
+
+.wishes3 {
+    margin-top: 20px;
+    width: 473px;
+    height: 44px;
+    width: 473px;
+    height: 44px;
+    color: white;
+}
+
+.mac {
+    margin-left: 620px;
+    margin-top: -360px;
+}
+
+.left {
+    font-size: 30px;
+    color: white;
+}
+
+.circle {
+    color: white;
+}
+
+.right {
+    font-size: 30px;
+    color: white;
+}
+
+.sec1 {
+    width: 453px;
+    height: 76px;
+    color: #000000;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: right;
+    color: #000000;
+    margin-left: 870px;
+    margin-top: 40px;
+}
+
+.secret h2 {
+    width: 520px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #8A7F41;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+
+.proof h1 {
+    width: 73px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: right;
+    color: #000000;
+}
+
+.proof h5 {
+    width: 97px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #000000;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.proof p {
+    width: 347px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1F1F1F;
+    margin-top: 15px;
+}
+
+.rec {
+    padding: 30px 0 30px 0;
+}
+
+.rec h1 {
+    width: 184px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: right;
+    color: #000000;
+}
+
+.rec h5 {
+    width: 172px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #000000;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.rec p {
+    width: 317px;
+    height: 66px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1F1F1F;
+    margin-top: 20px;
+}
+
+.gys h1 {
+    width: 170px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: right;
+    color: #000000;
+}
+
+.gys h5 {
+    width: 219px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #000000;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.gys p {
+    width: 328px;
+    height: 85px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1F1F1F;
+    margin-top: 25px;
+}
+
+.ears h1 {
+    width: 43px;
+    height: 85px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: right;
+    color: #000000;
+}
+
+.ears h5 {
+    width: 148px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #000000;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.ears p {
+    width: 325px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1F1F1F;
+    margin-top: 20px;
+}
+
+.ofice {
+    margin-left: 600px;
+    margin-top: -550px;
+}
+
+#scream {
+    width: 100%;
+    height: 859px;
+    background: #1F1E3D;
+}
+
+.scream h1 {
+    height: 59px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    border: 1px solid #DDAF2A;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.gold {
+    width: 303px;
+    height: 80px;
+    background: linear-gradient(100.23deg, #DDAF2A 21.24%, #FFFFFF 304.74%);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: black;
+}
+
+.girlScream {
+    margin-top: 23px;
+    margin-left: 330px;
+}
+
+.free {
+    margin-top: -500px;
+    margin-left: 300px;
+    width: 260px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.peppa {
+    margin-left: 420px;
+    margin-top: -40px;
+}
+
+.mark {
+    color: red;
+    font-size: 15px;
+}
+
+.they {
+    width: 260px;
+    height: 75px;
+    border-radius: 15px;
+    font-size: 10px;
+}
+
+.chec {
+    font-size: 15px;
+    color: #71DE56;
+}
+
+.house {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+
+}
+
+.pep {
+    width: 260px;
+    height: 245px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px #FFFFFF;
+    border-radius: 15px;
+    margin-left: 301px;
+    margin-top: -30px;
+}
+
+.fast {
+    margin-left: 950px;
+    margin-top: -600px;
+}
+
+.faster {
+    width: 260px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.time {
+    margin-top: -35px;
+    margin-left: 60px;
+}
+
+.pepe {
+    margin-top: -25px;
+    width: 260px;
+    height: 245px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.kat {
+    margin-top: 50px;
+}
+
+.pepep {
+    width: 260px;
+    height: 245px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-top: -25px;
+}
+
+.mom {
+    margin-top: -35px;
+    margin-left: 70px;
+}
+
+.trust {
+    margin-left: 455px;
+    margin-top: 170px;
+}
+
+.rev {
+    margin-top: -640px;
+    margin-left: 840px;
+}
+
+.reviews h1 {
+    width: 195px;
+    height: 47px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: right;
+
+    color: #000000;
+
+}
+
+.reviews h5 {
+    width: 516px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #8A7F41;
+
+}
+
+.kitox {
+    margin-top: -100px;
+    width: 311px;
+    height: 255px;
+    background: #DDAF2A;
+    border-radius: 15px;
+}
+
+.kitox img {
+    margin-top: 20px;
+    margin-left: 15px;
+}
