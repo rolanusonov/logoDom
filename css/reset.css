@@ -1,121 +1,95 @@
-@media (max-width: 1200px) {
-    .container {
-        width: 1140px;
-    }
-    .menu {
-        width: 55%;
-    }
-    .contact {
-        width: 27%;
-    }
-}
+/*//1140*/
+/*1024*/
+/*992*/
+/*768*/
+/*576*/
+/*450*/
+/*414*/
+/*400*/
+/*380*/
+/*375*/
+/*360*/
+/*320*/
 @media (max-width: 1024px) {
-    .container {
-        width: 95%;
+    .menuAdap {
+        width: 294px;
     }
     .contact {
-        width: 33%;
-    }
-    .menu {
-        width: 64%;
+        width: 57%;
     }
 }
 @media (max-width: 992px) {
-
+    #LogoDom {
+        width: 100%;
+    }
 }
 @media (max-width: 768px) {
-    #menuBurger{
-        display: block;
-    }
-.menuAdap{
-    display: none;
-}
-    .contact {
-        width: 52%;
-    }
     .LogoDom h2 {
-        font-size: 25px;
+        font-size: 19px;
     }
-    .user {
-        padding: 5px;
-        width: 30px;
-        height: 28px;
+    .menu a {
+        font-size: 12px;
     }
     .btn {
-        width: 169px;
-        height: 35px;
-         font-size: 12px;
+        width: 149px;
+        font-size: 12px;
+    }
+    .user {
+        width: 31px;
+        height: 32px;
+    }
+    .progect h3 {
+        margin-left: 52px;
     }
     .progect h2 {
-
-        width: 688px;
-        height: 196px;
-        font-size: 54px;
-
+        font-size: 46px;
+    }
+    .progect h4 {
+        font-size: 18px;
+        margin-left: 287px;
+        margin-top: -86px;
     }
 }
 @media (max-width: 576px) {
+    .menuAdap {
+        display: none;
+    }
     .progect h2 {
-        width: 400px;
+        width: 479px;
     }
     .progect h4 {
-         width: 236px;
-         font-size: 18px;
-         margin-left: 298px;
-        margin-top: -81px;
+        width: 241px;
     }
-    .progect h3 {
-        margin-left: 46px;
-     }
+    #menuBurger{
+        display: block;
+    }
+    .LogoDom {
+        width: 87%;
+    }
 }
 @media (max-width: 450px) {
+    .contact {
+        display: none;
+    }
+    .progect h2 {
+        width: 344px;
+    }
     .progect h4 {
-        margin-left: 43px;
-        margin-top: -101px;
+        margin-left: 41px;
     }
-
+}
+@media (max-width: 414px) {
+    .line {
+        height: 0;
+    }
     .progect h2 {
-        width: 386px;
-        font-size: 40px;
-        padding: 20px 0;
-    }
-    .btn {
-display: none;
-    }
-    .contact {
-        width: 0;
-    }
-}
-@media (max-width: 415px) {
-    .progect h2 {
-        width: 341px;
-    }
-    .progect h3 {
-
-        margin-top: 0;
-    }
-}
-@media (max-width: 400px) {
-
-}
-@media (max-width: 390px) {
-    
-}
-@media (max-width: 380px) {
-    .progect h2 {
+        font-size: 36px;
         width: 319px;
-    }
-    .contact {
-        width: 22px;
     }
 }
 @media (max-width: 360px) {
     .progect h2 {
-        width: 304px;
-        font-size: 30px;
+
+        width: 290px;
     }
-
-}
-@media (max-width: 320px) {
-
 }
